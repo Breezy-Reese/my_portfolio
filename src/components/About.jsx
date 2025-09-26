@@ -12,7 +12,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-600 rounded-2xl blur-2xl opacity-20"></div>
               <img
-                src="/"
+                src="/images/Timeless design.png"
                 alt="Basil Mutuku"
                 className="relative w-96 h-96 object-cover rounded-2xl shadow-2xl"
               />
@@ -26,7 +26,7 @@ const About = () => {
             <p className="text-gray-600 leading-relaxed mb-8 text-lg">
               Hi there! I Basil Mutuku! You might also know me as Javascript Developer. I've been programming 
               for over 2 years now as a  developer. I've worked both with startups and individuals 
-              to help build & scale their businesses. Along the journey I realised my passion existed in 
+              to help build & scale their businesses. Along the journey I realized my passion existed in 
               helping others excel and pursue their dreams as upcoming developers. Hence mentoring and teaching how to code.
             </p>
             

@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { MessageSquare, Github } from "lucide-react";
 
@@ -27,8 +28,7 @@ const Footer = () => {
 
           {/* Info Section */}
           <div>
-            <h4 className="text-cyan-400 text-lg font-bold mb-4 border-b-2 border-cyan-400 pb-2">
-              Info
+             <h4 className="text-cyan-400 text-lg font-bold mb-4 border-b-2 border-cyan-400 pb-2">              Info
             </h4>
             <ul className="space-y-3">
               <li><a href="#about" className="hover:text-cyan-400 transition-colors duration-200">About Us</a></li>
@@ -66,10 +66,10 @@ const Footer = () => {
               Legal
             </h4>
             <ul className="space-y-3">
-              <li><a href="#" className="hover:text-cyan-400 transition-colors duration-200">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-cyan-400 transition-colors duration-200">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-cyan-400 transition-colors duration-200">Security</a></li>
-              <li><a href="#" className="hover:text-cyan-400 transition-colors duration-200">Testimonials</a></li>
+              <li><a href="#about" className="hover:text-cyan-400 transition-colors duration-200">Privacy Policy</a></li>
+              <li><a href="#services" className="hover:text-cyan-400 transition-colors duration-200">Terms of Service</a></li>
+              <li><a href="#skills" className="hover:text-cyan-400 transition-colors duration-200">Security</a></li>
+              <li><a href="#contact" className="hover:text-cyan-400 transition-colors duration-200">Testimonials</a></li>
             </ul>
           </div>
 
@@ -132,3 +132,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
